@@ -1,0 +1,23 @@
+{
+  "userKey": "USER_KEY",
+  "StreamId": "FACTIVA_STREAM_ID",
+  "GOOGLE_APPLICATION_CREDENTIALS": "GOOGLE_APPLICATION_CREDENTIALS",
+  "BqDataset": "BIGQUERY_DATA_SET",
+  "BqTable": "BIGQUERY_TABLE",
+  "mongodbURI": "MONGODB_CONNECTION_STRING",
+  "mongodbDatabaseName": "MONGODB_DATABASE_NAME",
+  "mongodbCollectionName": "MONGODB_COLLECTION_NAME",
+  "proxy": {
+    "use": "PROXY_USE",
+    "protocol": "PROXY_PROTOCOL",
+    "host": "PROXY_HOST",
+    "port": "PROXY_PORT",
+    "auth": {
+      "username": "PROXY_AUTH_USER",
+      "password": "PROXY_AUTH_PASSWORD"
+    }
+  },
+  "dowloadFilesDir": "DOWNLOAD_FILES_DIR",
+  "listenerFilesDir": "STREAM_FILES_DIR",
+  "logFilesDir": "LOG_FILES_DIR"
+}

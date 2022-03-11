@@ -1,0 +1,30 @@
+{
+  "name": "factiva-stream-docker",
+  "version": "1.0.0",
+  "description": "Stream listener",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "npm run babel && node lib/main.js",
+    "babel": "./node_modules/.bin/babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dowjones/factiva-stream-docker-javascript.git"
+  },
+  "author": "DowJones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dowjones/factiva-stream-docker-javascript/issues"
+  },
+  "homepage": "https://github.com/dowjones/factiva-stream-docker-javascript#readme",
+  "dependencies": {
+    "@factiva/core": "^0.2.0",
+    "@factiva/news": "1.0.0",
+    "core-js": "^3.21.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11"
+  }
+}

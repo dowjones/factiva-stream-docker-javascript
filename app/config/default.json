@@ -1,0 +1,23 @@
+{
+  "userKey": "default",
+  "StreamId": "",
+  "GOOGLE_APPLICATION_CREDENTIALS": "",
+  "BqDataset": "",
+  "BqTable": "",
+  "mongodbURI": "",
+  "mongodbDatabaseName": "",
+  "mongodbCollectionName": "",
+  "proxy": {
+    "use": false,
+    "protocol": "https",
+    "host": "localhost",
+    "port": "80",
+    "auth": {
+      "username": "",
+      "password": ""
+    }
+  },
+  "dowloadFilesDir": "",
+  "listenerFilesDir": "",
+  "logFilesDir": ""
+}
